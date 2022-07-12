@@ -512,7 +512,7 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
   margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
-  grid-template-rows: 40vh auto auto;
+  grid-template-rows: 40vh auto auto auto;
   grid-template-areas:"c-img c-img c-img c-img" "c-head c-head c-head c-head" "contact-1 contact-2 contact-3 contact-4" "contact-footer contact-footer contact-footer contact-footer"
 }
 .contact-container a{

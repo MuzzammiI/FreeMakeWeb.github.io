@@ -28,7 +28,7 @@
 }
 #container {
   display: grid;
-  height: 120vh;
+  height: auto;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 0.2fr 1.5fr 1.5fr;
   grid-template-areas: " n n n n " "img loc loc loc" "education profile profile profile" "skill add-l experience experience" "a-footer a-footer a-footer a-footer";

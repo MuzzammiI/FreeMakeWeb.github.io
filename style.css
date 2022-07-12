@@ -683,10 +683,11 @@ background-size: cover;
     margin: 0 auto;
     align-items: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 20vh auto ;
+    grid-template-rows: auto auto auto ;
     grid-template-areas: "head head head head" "a-img a-img a-img a-img" "a-content a-content a-content a-content" "a-footer a-footer a-footer a-footer";
   }
   #a-header img{
+      margin-top:10px;
     width: 100%;
     height: auto;
     /* margin-bottom: 50px; */
@@ -699,6 +700,10 @@ background-size: cover;
     font-size: 16px;
     text-align: start;
   }
+    #a-content{
+        width:100%;
+        height:auto;
+    }
     /* --------------about page-end----------- */
 
 

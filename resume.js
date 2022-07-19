@@ -29,7 +29,7 @@ function sendEmail(){
   Email.send({
     Host : "smtp.gmail.com",
     Username : "mdmozammil112002@gamil.com",
-    Password : "moratalav1##",
+    Password : "",
     To : 'www.mdmozammil@gmail.com',
     From : document.getElementById('email').value,
     Subject : "New Contact Form Enquiry",
